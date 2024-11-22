@@ -23,7 +23,7 @@ jobs:
   
     #Step 2: Clone the repository
     - name: Clone repository
-      run: git clone git@github.com:NiallRussell/computer_infrastructure_assessment.git
+      run: git clone https://github.com/NiallRussell/computer_infrastructure_assessment.git
 
     #Step 3: Run the script
     - name: Run weather.sh script
