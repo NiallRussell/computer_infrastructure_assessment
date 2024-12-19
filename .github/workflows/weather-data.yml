@@ -25,7 +25,6 @@ jobs:
     - name: Run weather.sh script
       run: |
         chmod +x ./weather.sh
-        shell: bash 
 
     #Step 3: Commit and push changes back to the repository
     - name: Commit and push changes
