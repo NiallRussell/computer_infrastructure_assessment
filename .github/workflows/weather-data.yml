@@ -22,8 +22,8 @@ jobs:
         persist-credentials: true # Allows changes to be pushed
   
     #Step 2: Clone the repository
-    #- name: Clone repository
-     # run: git clone https://github.com/NiallRussell/computer_infrastructure_assessment.git
+    - name: Clone repository
+      run: git clone https://github.com/NiallRussell/computer_infrastructure_assessment.git
 
     #Step 3: Run the script
     - name: Run weather.sh script
